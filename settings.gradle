@@ -1,1 +1,2 @@
-include ':app'
+include ':app', ':omega'
+project(':omega').projectDir = new File('OmegalulToasts/app')
